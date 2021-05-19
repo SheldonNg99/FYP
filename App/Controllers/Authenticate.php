@@ -1,22 +1,31 @@
 <?php
 
 class Authenticate extends Controller{
+  public function index(){
+    //Send the data from the url
+    $data['title'] = 'Home';
+    //Send the data by using model
+    //$this->view('Templates/Header',$data);
+    $this->view('Authenticate/Loginpage',$data);
+    $this->view('Message/ErrorMessage');
+  }
+
   public function Login(){
     //Send the data from the url
     $data['title'] = 'Login';
     //Send the data by using model
-    $this->view('Templates/Header',$data);
-    $this->view('AuthenticateViews/Login',$data);
-    $this->view('Templates/Footer');
+    //$this->view('Templates/Header',$data);
+    $this->view('Authenticate/Loginpage',$data);
+    $this->view('Message/ErrorMessage');
   }
 
   public function Register(){
     //Send the data from the url
     $data['title'] = 'Register';
     //Send the data by using model
-    $this->view('Templates/Header',$data);
-    $this->view('AuthenticateViews/Register',$data);
-    $this->view('Templates/Footer');
+    //$this->view('Templates/Header',$data);
+    $this->view('Authenticate/Register',$data);
+    $this->view('Message/ErrorMessage');
   }
   //User Login
   public function UserLogin(){

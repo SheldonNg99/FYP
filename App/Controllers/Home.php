@@ -5,10 +5,20 @@ class Home extends Controller{
     //Send the data from the url
     $data['title'] = 'Home';
     //Send the data by using model
-    //$this->view('Templates/Header',$data);
-    $this->view('home/Home',$data);
-    //$this->view('Templates/Footer');
+    $this->view('Templates/Header',$data);
+    $this->view('Home/Homepage',$data);
+    $this->view('Templates/Footer');
   }
+
+  public function session(){
+    //Send the data from the url
+    $data['title'] = 'Home';
+    //Send the data by using model
+    $this->view('Templates/Header',$data);
+    $this->view('Home/Homepage',$data);
+    $this->view('Templates/Footer');
+  }
+
   public function error(){
     if(isset($_SESSION['loggedin'])){
       echo '<a class="nav-link" href="'. BASEURL .'/Login/LogoutUser">Log out</a>';

@@ -1,0 +1,1007 @@
+*{
+  margin:0;
+  padding:0;
+  background-color: rgba(18, 19, 18, 0.9);
+}
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  background-color: rgba(18, 19, 18, 0.9);
+}
+.advertisement{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .advertisement .ads{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(2, 5vw);
+  grid-gap:1.8rem;
+}
+.container{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(18, 19, 18, 0.9);
+}
+.container2{
+  width: 75%;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .container3{
+  width: 75%;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .container4{
+  width: 75%;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* announcement */
+  .announce{
+  width: 70%;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .information{
+  display:grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(5, 5vw);
+  grid-gap:1.8rem;
+}
+ .hotVideos {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 5vw);
+  grid-gap:1.8rem;
+}
+  .RecentlyUpdated {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(4, 5vw);
+  grid-gap: 2.5rem;
+}
+ .TheyAreWatching {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(9, 5vw);
+  grid-gap:1.8rem;
+}
+  .youMayAlsoLike {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(11, 5vw);
+  grid-gap:1.8rem;
+}
+  .gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
+/* 热门影片*/
+  .hotVideos .gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+ .hotVideos .gallery__item--2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+  .hotVideos .gallery__item--3 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+  .hotVideos .gallery__item--4 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+  .hotVideos .gallery__item--5 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+  .hotVideos .gallery__item--6 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+  .hotVideos .gallery__item--7 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+  .hotVideos .gallery__item--8 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+
+/* 最近更新*/
+  .RecentlyUpdated .gallery__item--9 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+  .RecentlyUpdated .gallery__item--10 {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+  .RecentlyUpdated .gallery__item--11 {
+  grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+  .RecentlyUpdated .gallery__item--12 {
+  grid-column-start: 10;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+  .RecentlyUpdated .gallery__item--13 {
+  grid-column-start: 13;
+  grid-column-end: 16;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+/* 他们在看 */
+  .TheyAreWatching .gallery__item--14 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+  .TheyAreWatching .gallery__item--15 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+  .TheyAreWatching .gallery__item--16 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+  .TheyAreWatching .gallery__item--17 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+  .TheyAreWatching .gallery__item--18 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+  .TheyAreWatching .gallery__item--19 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+  .TheyAreWatching .gallery__item--20 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+  .TheyAreWatching .gallery__item--21 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+  .TheyAreWatching .gallery__item--22 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+  .TheyAreWatching .gallery__item--23 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+  .TheyAreWatching .gallery__item--24 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+  .TheyAreWatching .gallery__item--25 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+/* 猜你喜欢 */
+  .youMayAlsoLike .gallery__item--26 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+  .youMayAlsoLike .gallery__item--27 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+  .youMayAlsoLike .gallery__item--28 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+  .youMayAlsoLike .gallery__item--29 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+  .youMayAlsoLike .gallery__item--30 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+  .youMayAlsoLike .gallery__item--31 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+  .youMayAlsoLike .gallery__item--32 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+  .youMayAlsoLike .gallery__item--33 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+  .youMayAlsoLike .gallery__item--34 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+  .youMayAlsoLike .gallery__item--35 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+  .youMayAlsoLike .gallery__item--36 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+  .youMayAlsoLike .gallery__item--37 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+.adsPosition{
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+a{
+  font-size:15px;
+  color:white;
+}
+h2{
+  color:white;
+  font-size:20px;
+  margin:2rem auto;
+}
+h4{
+  color:white;
+}
+i{
+  margin-left:10px;
+  font-size:30px;
+  background-color: black;
+  color:white;
+  opacity:0.5;
+}
+#like:hover{
+  color:yellow;
+  opacity:1;
+}
+/* news */
+  .announce .information .announcement{
+  border-radius: 8px;
+  background-color: white;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+  .announce .information .donation{
+  border-radius: 8px;
+  background-color:  #2ab7ca;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+  .announce .information .box{
+  border-radius: 8px;
+  background-color: #fe4a49 ;
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+/* footer */
+
+/* phone view */
+@media screen and (max-width:700px){
+  .navbar{
+    flex-direction:column;
+    display:none;
+  }
+  #toggle:checked + .navbar{
+    display:flex;
+  }
+  .togglearea{
+    display:flex;
+  }
+}
+@media screen and (max-width:700px){
+    a{
+    font-size:10px;
+  }
+    .advertisement{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    .ads{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(2, 5vw);
+    grid-gap:1.8rem;
+  }
+    .adsPosition{
+    width:355px;
+    height:70px;
+  }
+    .container {
+    width: 95%;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    .container2{
+    width: 95%;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    .container3{
+    width: 95%;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    .container4{
+    width: 95%;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    .announce{
+    width: 95%;
+    margin-top: 5rem;
+    margin-left: auto;
+  }
+    .information{
+    display:grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(5, 5vw);
+    grid-gap:1.8rem;
+  }
+    .hotVideos {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(17, 5vw);
+    grid-gap:1.8rem;
+  }
+    .RecentlyUpdated {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(6, 5vw);
+    grid-gap: 2.5rem;
+  }
+    .TheyAreWatching {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(24, 5vw);
+    grid-gap:1.8rem;
+  }
+    .youMayAlsoLike {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(28, 5vw);
+    grid-gap:1.8rem;
+  }
+    .hotVideos .gallery__item--1{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+    .hotVideos .gallery__item--2{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+    .hotVideos .gallery__item--3{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 8;
+  }
+    .hotVideos .gallery__item--4{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 8;
+  }
+    .hotVideos .gallery__item--5{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 9;
+    grid-row-end: 12;
+  }
+    .hotVideos .gallery__item--6{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 9;
+    grid-row-end: 12;
+  }
+    .hotVideos .gallery__item--7{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 13;
+    grid-row-end: 16;
+  }
+    .hotVideos .gallery__item--8{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 13;
+    grid-row-end: 16;
+  }
+    .adsPosition{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+    .RecentlyUpdated .gallery__item--9{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 6;
+  }
+    .RecentlyUpdated .gallery__item--10{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 6;
+  }
+    .RecentlyUpdated .gallery__item--11{
+    grid-column-start: 11;
+    grid-column-end: 16;
+    grid-row-start: 1;
+    grid-row-end: 6;
+  }
+    .RecentlyUpdated .gallery__item--12{
+    display:none;
+  }
+    .RecentlyUpdated .gallery__item--13{
+    display:none;
+  }
+
+    .TheyAreWatching .gallery__item--14{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+    .TheyAreWatching .gallery__item--15{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+    .TheyAreWatching .gallery__item--16{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 8;
+  }
+    .TheyAreWatching .gallery__item--17{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 8;
+  }
+    .TheyAreWatching .gallery__item--18{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 9;
+    grid-row-end: 12;
+  }
+    .TheyAreWatching .gallery__item--19{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 9;
+    grid-row-end: 12;
+  }
+    .TheyAreWatching .gallery__item--20{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 13;
+    grid-row-end: 16;
+  }
+    .TheyAreWatching .gallery__item--21{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 13;
+    grid-row-end: 16;
+  }
+    .TheyAreWatching .gallery__item--22{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 17;
+    grid-row-end: 20;
+  }
+    .TheyAreWatching .gallery__item--23{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 17;
+    grid-row-end: 20;
+  }
+    .TheyAreWatching .gallery__item--24{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 21;
+    grid-row-end: 24;
+  }
+    .TheyAreWatching .gallery__item--25{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 21;
+    grid-row-end: 24;
+  }
+    .youMayAlsoLike .gallery__item--26{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+    .youMayAlsoLike .gallery__item--27{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+    .youMayAlsoLike .gallery__item--28{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 8;
+  }
+    .youMayAlsoLike .gallery__item--29{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 8;
+  }
+    .youMayAlsoLike .gallery__item--30{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 9;
+    grid-row-end: 12;
+  }
+    .youMayAlsoLike .gallery__item--31{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 9;
+    grid-row-end: 12;
+  }
+    .youMayAlsoLike .gallery__item--32{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 13;
+    grid-row-end: 16;
+  }
+    .youMayAlsoLike .gallery__item--33{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 13;
+    grid-row-end: 16;
+  }
+    .youMayAlsoLike .gallery__item--34{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 17;
+    grid-row-end: 20;
+  }
+    .youMayAlsoLike .gallery__item--35{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 17;
+    grid-row-end: 20;
+  }
+    .youMayAlsoLike .gallery__item--36{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 21;
+    grid-row-end: 24;
+  }
+    .youMayAlsoLike .gallery__item--37{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 21;
+    grid-row-end: 24;
+  }
+    .announce .information .announcement{
+    border-radius: 8px;
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+    .announce .information .donation{
+    border-radius: 8px;
+    background-color:  #2ab7ca;
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+    .announce .information .box{
+    border-radius: 8px;
+    background-color: #fe4a49 ;
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+
+}
+/* tablet view */
+
+@media screen and (max-width:768px) and (min-width:400px){
+a{
+font-size:13px;
+}
+.container {
+width: 90%;
+margin-top: 5rem;
+margin-left: auto;
+margin-right: auto;
+}
+.container2{
+width: 90%;
+margin-top: 2.5rem;
+margin-left: auto;
+margin-right: auto;
+}
+.container3{
+width: 90%;
+margin-top: 5rem;
+margin-left: auto;
+margin-right: auto;
+}
+.container4{
+width: 90%;
+margin-top: 5rem;
+margin-left: auto;
+margin-right: auto;
+}
+.hotVideos {
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+grid-template-rows: repeat(9, 5vw);
+grid-gap:1.8rem;
+}
+.RecentlyUpdated {
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+grid-template-rows: repeat(5, 5vw);
+grid-gap: 2.5rem;
+}
+.TheyAreWatching {
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+grid-template-rows: repeat(16, 5vw);
+grid-gap:1.8rem;
+}
+.youMayAlsoLike {
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+grid-template-rows: repeat(22, 5vw);
+grid-gap:1.8rem;
+}
+.hotVideos .gallery__item--1{
+grid-column-start: 1;
+grid-column-end: 5;
+grid-row-start: 1;
+grid-row-end: 4;
+}
+.hotVideos .gallery__item--2{
+grid-column-start: 5;
+grid-column-end: 9;
+grid-row-start: 1;
+grid-row-end: 4;
+}
+.hotVideos .gallery__item--3{
+grid-column-start: 9;
+grid-column-end: 13;
+grid-row-start: 1;
+grid-row-end: 4;
+}
+.hotVideos .gallery__item--4{
+grid-column-start: 1;
+grid-column-end: 5;
+grid-row-start: 5;
+grid-row-end: 8;
+}
+.hotVideos .gallery__item--5{
+grid-column-start: 5;
+grid-column-end: 9;
+grid-row-start: 5;
+grid-row-end: 8;
+}
+.hotVideos .gallery__item--6{
+grid-column-start: 9;
+grid-column-end: 13;
+grid-row-start: 5;
+grid-row-end: 8;
+}
+.hotVideos .gallery__item--7{
+display:none;
+}
+.hotVideos .gallery__item--8{
+display:none;
+}
+.advertisement{
+width: 85%;
+margin-left: auto;
+margin-right: auto;
+}
+.ads{
+display: grid;
+grid-template-columns: repeat(9, 1fr);
+grid-template-rows: repeat(1, 5vw);
+grid-gap:1.8rem;
+}
+.adsPosition{
+width:500px;
+height:70px;
+}
+.announce{
+width: 85%;
+margin-top: 5rem;
+margin-left: auto;
+}
+
+.RecentlyUpdated .gallery__item--9{
+grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 5;
+}
+.RecentlyUpdated .gallery__item--10{
+grid-column-start: 4;
+grid-column-end: 7;
+grid-row-start: 1;
+grid-row-end: 5;
+}
+.RecentlyUpdated .gallery__item--11{
+grid-column-start: 7;
+grid-column-end: 10;
+grid-row-start: 1;
+grid-row-end: 5;
+}
+.RecentlyUpdated .gallery__item--12{
+grid-column-start: 10;
+grid-column-end: 13;
+grid-row-start: 1;
+grid-row-end: 5;
+}
+.RecentlyUpdated .gallery__item--13{
+display:none;
+}
+.TheyAreWatching .gallery__item--14{
+grid-column-start: 1;
+grid-column-end: 5;
+grid-row-start: 1;
+grid-row-end: 4;
+}
+.TheyAreWatching .gallery__item--15{
+grid-column-start: 5;
+grid-column-end: 9;
+grid-row-start: 1;
+grid-row-end: 4;
+}
+.TheyAreWatching .gallery__item--16{
+grid-column-start: 9;
+grid-column-end: 13;
+grid-row-start: 1;
+grid-row-end: 4;
+}
+.TheyAreWatching .gallery__item--17{
+grid-column-start: 1;
+grid-column-end: 5;
+grid-row-start: 5;
+grid-row-end: 8;
+}
+.TheyAreWatching .gallery__item--18{
+grid-column-start: 5;
+grid-column-end: 9;
+grid-row-start: 5;
+grid-row-end: 8;
+}
+.TheyAreWatching .gallery__item--19{
+grid-column-start: 9;
+grid-column-end: 13;
+grid-row-start: 5;
+grid-row-end: 8;
+}
+.TheyAreWatching .gallery__item--20{
+grid-column-start: 1;
+grid-column-end: 5;
+grid-row-start: 9;
+grid-row-end: 12;
+}
+.TheyAreWatching .gallery__item--21{
+grid-column-start: 5;
+grid-column-end: 9;
+grid-row-start: 9;
+grid-row-end: 12;
+}
+.TheyAreWatching .gallery__item--22{
+grid-column-start: 9;
+grid-column-end: 13;
+grid-row-start: 9;
+grid-row-end: 12;
+}
+.TheyAreWatching .gallery__item--23{
+grid-column-start: 1;
+grid-column-end: 5;
+grid-row-start: 13;
+grid-row-end: 16;
+}
+.TheyAreWatching .gallery__item--24{
+grid-column-start: 5;
+grid-column-end: 9;
+grid-row-start: 13;
+grid-row-end: 16;
+}
+.TheyAreWatching .gallery__item--25{
+grid-column-start: 9;
+grid-column-end: 13;
+grid-row-start: 13;
+grid-row-end: 16;
+}
+.youMayAlsoLike .gallery__item--26{
+grid-column-start: 1;
+grid-column-end: 5;
+grid-row-start: 1;
+grid-row-end: 4;
+}
+.youMayAlsoLike .gallery__item--27{
+grid-column-start: 5;
+grid-column-end: 9;
+grid-row-start: 1;
+grid-row-end: 4;
+}
+.youMayAlsoLike .gallery__item--28{
+grid-column-start: 9;
+grid-column-end: 13;
+grid-row-start: 1;
+grid-row-end: 4;
+}
+.youMayAlsoLike .gallery__item--29{
+grid-column-start: 1;
+grid-column-end: 5;
+grid-row-start: 5;
+grid-row-end: 8;
+}
+.youMayAlsoLike .gallery__item--30{
+grid-column-start: 5;
+grid-column-end: 9;
+grid-row-start: 5;
+grid-row-end: 8;
+}
+.youMayAlsoLike .gallery__item--31{
+grid-column-start: 9;
+grid-column-end: 13;
+grid-row-start: 5;
+grid-row-end: 8;
+}
+.youMayAlsoLike .gallery__item--32{
+grid-column-start: 1;
+grid-column-end: 5;
+grid-row-start: 9;
+grid-row-end: 12;
+}
+.youMayAlsoLike .gallery__item--33{
+grid-column-start: 5;
+grid-column-end: 9;
+grid-row-start: 9;
+grid-row-end: 12;
+}
+.youMayAlsoLike .gallery__item--34{
+grid-column-start: 9;
+grid-column-end: 13;
+grid-row-start: 9;
+grid-row-end: 12;
+}
+.youMayAlsoLike .gallery__item--35{
+grid-column-start: 1;
+grid-column-end: 5;
+grid-row-start: 13;
+grid-row-end: 16;
+}
+.youMayAlsoLike .gallery__item--36{
+grid-column-start: 5;
+grid-column-end: 9;
+grid-row-start: 13;
+grid-row-end: 16;
+}
+.youMayAlsoLike .gallery__item--37{
+grid-column-start: 9;
+grid-column-end: 13;
+grid-row-start: 13;
+grid-row-end: 16;
+}
+
+}
